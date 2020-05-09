@@ -1,16 +1,8 @@
-# brew_crew
+# Brew Crew
 
-A new Flutter application.
+A Flutter application to keep track of a crew's brew preferences. It allows each crew member to give specific requirements for their brew.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This project is inspired by and is a follow along of the Brew Crew Flutter project tutorial by "The Net Ninja" on Youtube.
+Link to the youtube course : https://www.youtube.com/playlist?list=PL4cUxeGkcC9j--TKIdkb3ISfRbJeJYQwC
