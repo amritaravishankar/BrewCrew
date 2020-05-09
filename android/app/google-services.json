@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "951607101053",
+    "firebase_url": "https://amrita-brew-crew.firebaseio.com",
+    "project_id": "amrita-brew-crew",
+    "storage_bucket": "amrita-brew-crew.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951607101053:android:3b1068e252632a83479314",
+        "android_client_info": {
+          "package_name": "com.amrita.brew_crew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "951607101053-b5jjtguqt7itoabro6e1v70bbnol2e5s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArXN3eV_7n0qA9c1RGEWv7qCMp3A1cJDU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "951607101053-b5jjtguqt7itoabro6e1v70bbnol2e5s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
