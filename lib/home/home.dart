@@ -80,7 +80,11 @@ class Home extends StatelessWidget {
                   child: ListTile(
                     leading: Icon(Icons.exit_to_app, color: Colors.grey.shade800),
                     title: Text('Logout', style: TextStyle(fontSize: 15.0 )),
-                    onTap: ()=> Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context) => SignIn()), (r) => false),
+                    onTap: () async {
+                      Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context) => SignIn()), (
+                              r) => false);
+                        await _auth.signOut();
+                    },
                   ),
                 ),
               ],
