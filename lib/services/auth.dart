@@ -58,9 +58,24 @@ class AuthService //instance of this class will let you interact with backend
 
   }
 
+  //sign out
+  Future signOut() async
+  {
+    try
+    {
+      return await _auth.signOut();
+    }
+    catch(e)
+    {
+      print(e.toString());
+      return null;
+    }
+  }
+
   //sign in with email and password
   Future signInWithEmailAndPassword(String email, String password) async
   {
+
     try
     {
       AuthResult result = await _auth.signInWithEmailAndPassword(email: email, password: password);
@@ -75,18 +90,5 @@ class AuthService //instance of this class will let you interact with backend
 
   }
 
-  //sign out
-  Future signOut() async
-  {
-    try
-    {
-      return await _auth.signOut();
-    }
-    catch(e)
-    {
-      print(e.toString());
-      return null;
-    }
-  }
 
 }
