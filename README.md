@@ -1,6 +1,6 @@
 # Brew Crew
 
-A Flutter application to keep track of a crew's brew preferences. It allows each crew member to give specific requirements for their brew.
+☕ A Flutter application to keep track of a crew's brew preferences. It allows each crew member to give specific requirements for their brew.
 
 ## Getting Started
 
