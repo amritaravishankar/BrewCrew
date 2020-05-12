@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:brew_crew/services/auth.dart';
 import 'package:brew_crew/shared/loading.dart';
-
+import 'package:brew_crew/authenticate/register.dart';
+import 'package:brew_crew/home/home.dart';
 
 class SignIn extends StatefulWidget { //constructor required in the widget itself not in the state
 
@@ -110,6 +111,9 @@ class _SignInState extends State<SignIn> {
                                   loading = false;
                                 });
                               }
+                              else{
+                                Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context) => Home()), (r) => false);
+                              }
                             }
                           },
                         ),
@@ -118,7 +122,10 @@ class _SignInState extends State<SignIn> {
                         SizedBox(height:100),
                         FlatButton(
                             onPressed: (){
-                              widget.toggleView();
+                              print("Wanna register");
+                              Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context) => Register()), (r) => false);
+                              //widget.toggleView();
+
                             },
                             child: Text("NEW USER? REGISTER!",style: TextStyle(fontSize: 18.0, color: Colors.white, fontWeight: FontWeight.w600, letterSpacing: 1.5))
                         ),

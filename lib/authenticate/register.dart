@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:brew_crew/services/auth.dart';
 import 'package:brew_crew/shared/loading.dart';
+import 'package:brew_crew/home/home.dart';
+import 'package:brew_crew/authenticate/sign_in.dart';
+
 
 class Register extends StatefulWidget { //constructor required in the widget itself not in the state
 
@@ -141,6 +144,10 @@ class _RegisterState extends State<Register> {
                                 error = 'Incorrect credentials: Could not Register';
                                 loading = false;
                               });
+
+                            }
+                            else{
+                              Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context) => Home()), (r) => false);
                             }
                           }
                         },
@@ -149,7 +156,9 @@ class _RegisterState extends State<Register> {
                       Text(error, style: TextStyle(color: Colors.white, fontSize: 14.0)),
                       FlatButton(
                           onPressed: (){
-                            widget.toggleView();
+
+                            Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context) => SignIn()), (r) => false);
+                            //widget.toggleView();
                           },
                           child: Text("ALREADY REGISTERED? SIGN IN",style: TextStyle(fontSize: 16, color: Colors.white, fontWeight: FontWeight.w600, letterSpacing: 1.5))
                       )
