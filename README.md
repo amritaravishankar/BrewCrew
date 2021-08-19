@@ -1,6 +1,8 @@
 # Brew Crew
 
-☕ A Flutter application to keep track of a crew's brew preferences. It allows each crew member to give specific requirements for their brew.
+☕ A Flutter application to keep track of a crew's brew preferences. It allows each crew member to give specific requirements for their coffee order.
+
+The purpose behind building this application was, when one person needs to make a coffee-run it can serve as an easy look-up.
 
 ## Getting Started
 
