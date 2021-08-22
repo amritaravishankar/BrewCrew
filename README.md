@@ -6,10 +6,10 @@ The purpose behind building this application was, when one person needs to make 
 
 ## UI
 ### Register page
-<img src="https://github.com/amritaravishankar/BrewCrew/blob/master/register.png" width="300">
+<img src="https://github.com/amritaravishankar/BrewCrew/blob/master/register.png" width="250">
 
 ### Main page
-<img src="https://github.com/amritaravishankar/BrewCrew/blob/master/before.png" width="300">
+<img src="https://github.com/amritaravishankar/BrewCrew/blob/master/before.png" width="250">
 
 ## Getting Started
 
